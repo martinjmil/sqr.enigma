@@ -8,7 +8,7 @@ public class Reflector extends Rotor {
     //attibuts de la classe
 	int[] reflection;
 	
-//
+//appel le constructeur après initlialisé cipher et len tableau de caractère s
 	public static Reflector reflectorFactory(String str){
 		char[] s = str.trim().replace(" ", "").toCharArray();
 		int[] cipher = new int[26];
