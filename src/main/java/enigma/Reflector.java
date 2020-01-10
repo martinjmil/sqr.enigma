@@ -5,8 +5,10 @@ package enigma;
  */
 public class Reflector extends Rotor {
 	
+    //attibuts de la classe
 	int[] reflection;
 	
+//
 	public static Reflector reflectorFactory(String str){
 		char[] s = str.trim().replace(" ", "").toCharArray();
 		int[] cipher = new int[26];
@@ -15,7 +17,7 @@ public class Reflector extends Rotor {
 		}
 		return new Reflector(cipher);
 	}
-	
+//constructeur de la classe 	
 	Reflector(int[] r){
 		super(r,0);
 		reflection = r;
@@ -24,7 +26,7 @@ public class Reflector extends Rotor {
     public int convertForward(int p) {
         return ((reflection[((p)%26+26)%26])%26+26)%26;
     }
-
+//surcharge de la méthode "convert
     @Override
     public int convertBackward(int unused) {
         throw new UnsupportedOperationException();
