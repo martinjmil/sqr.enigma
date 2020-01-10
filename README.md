@@ -32,6 +32,7 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 -rotorFactory()
 -convertForward()
 -convertBackward()
+-advance()
 
 ## Tricks & tips
 
