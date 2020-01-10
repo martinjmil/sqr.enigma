@@ -26,12 +26,12 @@ public class Reflector extends Rotor {
     public int convertForward(int p) {
         return ((reflection[((p)%26+26)%26])%26+26)%26;
     }
-//surcharge de la méthode "convert
+//surcharge de la méthode "convertBackward"
     @Override
     public int convertBackward(int unused) {
         throw new UnsupportedOperationException();
     }
-
+//surcharge de la méthode "advance"
     @Override
     public void advance() {
     }

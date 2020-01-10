@@ -2,12 +2,14 @@ package enigma;
 
 public class Rotor {
 
+    //attributs de la classe
     private int position;
     private int[] cipher = new int[26];
     private int[] bcipher = new int[26];
     private int notch1 = -1;
     private int notch2 = -1;
 
+    //assesseurs
     public int getPosition() {
         return position;
     }
@@ -30,7 +32,7 @@ public class Rotor {
 		}
 		
 	}
-	
+	//constructeurs
 	Rotor(int[] c, int notch1, int notch2) {
 		this.notch1 = notch1;
 		this.notch2 = notch2;
