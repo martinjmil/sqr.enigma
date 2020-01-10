@@ -47,11 +47,11 @@ public class Rotor {
 		cipher = c;
 		createBCipher();
 	}
-        //converti la position de cipher à partir de p
+        //convertie la position de cipher à partir de p
     public int convertForward(int p) {
         return ((cipher[((p+position)%26+26)%26]-position)%26+26)%26;
     }
-    //la position de bcipher à partie de e
+    //convertie la position de bcipher à partie de e
     public int convertBackward(int e) {
         return ((bcipher[((e+position)%26+26)%26]-position)%26+26)%26;
     }
