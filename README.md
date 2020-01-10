@@ -18,12 +18,20 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 ### Classe Machine
 #### functions
+-advanceRotor()
+-convert()
+-convertChar()
 
 ### Classe Reflector
 #### functions
+-reflectorFactory()
+-convertForward()
 
 ### Classe Rotor
 #### functions
+-rotorFactory()
+-convertForward()
+-convertBackward()
 
 ## Tricks & tips
 
