@@ -33,6 +33,8 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 -convertForward()
 -convertBackward()
 -advance()
+-toletter()
+-toIndex()
 
 ## Tricks & tips
 
